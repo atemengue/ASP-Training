@@ -26,9 +26,24 @@ namespace CityAPI
 				},
 				new CityDto()
 				{
-					Id = 1,
+					Id = 3,
 					Name = "Yaounde",
-					Description = "La capitale politique du cameroun"
+					Description = "La capitale politique du cameroun",
+					PointofInterest = new List<PointOfInterestDto>()
+					{
+						new PointOfInterestDto()
+						{
+							Id = 5,
+							Name = "Palais des sports",
+							Description = "Grand etablissement sportif construit par les chinos"
+						},
+						new PointOfInterestDto()
+						{
+							Id = 6,
+							Name = "The louvre",
+							Description = "The world's largest museum"
+						}
+					}
 				}
 			};
 		}
